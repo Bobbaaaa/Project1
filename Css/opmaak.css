@@ -1,0 +1,192 @@
+body{
+background-color: #3f3f3f;
+color: white;
+}
+
+.active{
+background-color: rgba(0, 0, 0, 0.5);
+}
+ul{
+   
+    
+     display: flex;                  
+  justify-content: space-between;  
+  align-items: center; 
+list-style: none;
+}
+.bovenbalk {
+  background-color: rgba(0, 0, 0, 0.2); 
+  color: white;           
+  padding: 20px;          
+  text-align: center;     
+}
+.top{
+    
+    width: 100%;
+}
+.top > div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+}  
+h1{
+  font-size: 64px;
+  margin-left: 40px;
+}
+h2{
+  margin-left: 40px;
+  font-size: 45px;
+}
+h3{
+  font-size: 36px;
+  margin-left: 40px;
+}
+h5{
+  font-size: 64px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+h6{
+  font-size: 64px;
+  margin-right: 270px;
+  text-align: right;
+  margin-bottom: 10px;
+  
+}
+p{
+  font-size: 32px;
+  margin-left: 40px;
+  width: 40%;
+  color: #D3D3D3;
+ 
+}
+.ik{
+  width: 354px;
+  height: 472px;
+}
+img {
+  display: block; 
+}
+.help{
+  margin-top: 0px;
+}
+.rechts{
+  float: right;
+  margin-right: 40px;
+  width: 40%;
+}
+.ruimte{
+  margin-top: 50px;
+}
+.lengte{
+  width: 60%;
+}
+hr {
+  border: none;           
+  height: 2px;            
+  background-color: black; 
+  width: 100%;           
+  margin: 20px 0;      
+}
+  .lijn-absolute {
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: 50px;  /* 50 pixels boven de onderkant van de container */
+    left: 0;
+  }
+ .jaba{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 34px;
+    background-color: rgba(63, 63, 63, 0.6);
+}
+.form{
+  color: #D3D3D3;
+  font-size: 34px;
+}
+/* Container met titel en formulier naast elkaar */
+.contact-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 40px;
+  gap: 60px;
+}
+
+/* Linkerkant met uitleg en icoontjes */
+.contact-info {
+  flex: 1;
+}
+
+/* Icoontjes netjes horizontaal onder elkaar */
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Formulier rechts */
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  width: 450px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005fcc;
+}
+.left{
+  margin-left: 40px;
+}
+.table{
+  color: #D3D3D3;
+  margin: 1em;
+  border: dotted 1px black;
+ border-collapse:collapse ; 
+  border-spacing: 0px;
+  font-size: 34px;
+  padding: 10px;
+}
+.table th{
+  border: dotted 1px black;
+  padding: 5px;
+}
+.table td{
+  border: dotted 1px black;
+  padding: 10px;
+}
+caption{
+  font-style: inherit;
+}
